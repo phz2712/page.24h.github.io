@@ -1,0 +1,8 @@
+{
+    "launch": {
+    
+        "configurations": [],
+        "compounds": []
+    },
+    "html-css-class-completion.enableEmmetSupport": true
+}

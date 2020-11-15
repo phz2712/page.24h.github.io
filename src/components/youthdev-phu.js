@@ -1,6 +1,7 @@
 import React from 'react';
 import Topnav from './detail-youthdev-component/top-nav';
-import {StyledAllYouthDev, StyledTopNav} from './styled-youthdev-phu'
+import { StyledTopNav} from './styledComponent/styled-youthdev-phu';
+import { StyledAllYouthDev } from './styledComponent/StyledAllYouthDev';
 
 function Youthdev() {
     return (

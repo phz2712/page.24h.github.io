@@ -1,12 +1,34 @@
-import React from 'react';
-import LogoYouthDev from '../../picture/logo-youthdev.png'
+import React, {useState, useEffect} from 'react';
+import LogoYouthDev from '../../picture/logo-youthdev.png';
+import styled from 'styled-components';
+import $ from 'jquery';
+
+const SearchInput = styled.div`
+    display: ${props => props.showSearch  ? 'flex': 'none'};
+`
 
 function TopNav() {
+    const [showSearch, setShowSearch] = useState(false);
+    const searchChange =()=>{
+        setShowSearch(!showSearch);
+    }
+    const searchNoFocus =()=>{
+        setShowSearch(false);
+    }
+    useEffect(() => {
+        $('.top-nav_group-input').on( 'mousedown',  
+            function(e) {
+                e.preventDefault();
+            }          
+        )
+        
+        
+    },[],);
     return (
-            <section className="top-nav">
-                <div className="container">
-                    <div className="row d-flex justify-content-between">
-                        <div className="col d-flex">
+            <section className="h-100 top-nav">
+                <div className="position-relative h-100 container">
+                    <div className="row h-100 justify-content-between">
+                        <div className="col d-none d-md-flex">
                             <ul className="my-4 list-inline d-flex top-nav_nav-link">
                                 <li><a href=" ">home</a></li>
                                 <li><a href=" ">about</a></li>
@@ -15,21 +37,27 @@ function TopNav() {
                                 <li><a href=" ">blog</a></li>
                                 <li><a href=" ">contact</a></li>
                             </ul>
-                            <a href=" " className="d-flex align-items-center mx-3 top-nav_search">
-                                <i class="px-3 py-1 fas fa-search"></i>
+                            <div href=" " onClick={searchChange} className="d-flex align-items-center mx-3 top-nav_search">
+                                <i class="pl-3 pr-1 py-1 fas fa-search"></i>
                                 <span className="">search</span>
-                            </a>
+                            </div>
                         </div>
-                        <div className="d-flex justify-content-end align-items-center col">
+                        <div className="d-flex px-4 justify-content-end align-items-center col">
                             <div className="top-nav_logo">
+                                <div className='h-100 d-md-none logo_navbar-icon'>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
                                 <img src={LogoYouthDev} alt=""></img>                         
                             </div>
                         </div>
                     </div>
-                    <div className="top-nav_group-input">
-                        <input placeholder="please type keywords..." type="text" className="group-input_input"/>
-                        <i className="fas fa-search"></i>
-                        </div>
+                    <SearchInput onBlur={searchNoFocus} className="position-absolute top-nav_group-input" showSearch={showSearch}>
+                        <input ref={input => input && input.focus()} className="py-2 col px-3 w-75 group-input_input" placeholder="Please type keywords..." type="text"/>
+                        <div type='button' className="col-auto px-3 py-2"><i className="fas fa-search"></i></div>
+                    </SearchInput>
+                    
                 </div>
             </section>
     );
