@@ -1,7 +1,9 @@
 import React from 'react';
 import Topnav from './detail-youthdev-component/top-nav';
-import { StyledTopNav} from './styledComponent/styled-youthdev-phu';
-import { StyledAllYouthDev } from './styledComponent/StyledAllYouthDev';
+import Home from './detail-youthdev-component/home'
+import { StyledTopNav} from './styledComponent/styled-top-nav';
+import { StyledHome } from './styledComponent/styled-home';
+import { StyledAllYouthDev } from './styledComponent/Styled-all-youth-dev';
 
 function Youthdev() {
     return (
@@ -12,7 +14,12 @@ function Youthdev() {
                     <Topnav></Topnav>
                 </StyledTopNav>
             </header>
-            
+            <main>
+            {/* home */}
+                <StyledHome>
+                    <Home></Home>
+                </StyledHome>
+            </main>
         </StyledAllYouthDev>
     );
 }

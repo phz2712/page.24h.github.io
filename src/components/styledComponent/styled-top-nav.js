@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const StyledTopNav = styled.div`
     /* background-color: #1d1d1d; */
     background-color: #333333;
@@ -32,6 +31,7 @@ export const StyledTopNav = styled.div`
             a{
                 margin-left: 0.7em;
                 font-weight: bold;
+                font-size: 1em;
                 text-transform: uppercase;
                 color: #ffffff;
                 :hover{
@@ -44,6 +44,7 @@ export const StyledTopNav = styled.div`
     div.top-nav_search{
         color:#ffffff;
         text-transform: uppercase;
+        font-size: 1em;
         font-weight: bold;
         :hover{
             color: #FC4349;
@@ -80,11 +81,9 @@ export const StyledTopNav = styled.div`
                 color: black;
                 opacity: 1; /* Firefox */
             }
-
             :-ms-input-placeholder { /* Internet Explorer 10-11 */
                 color: black;
             }
-
             ::-ms-input-placeholder { /* Microsoft Edge */
                 color: black;
             }
@@ -95,7 +94,6 @@ export const StyledTopNav = styled.div`
             width: 2.3em;
             height: 2em;
             cursor: pointer;
-            margin-top: 2px;
         }
     }
 `

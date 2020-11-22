@@ -5,6 +5,7 @@ import $ from 'jquery';
 
 const SearchInput = styled.div`
     display: ${props => props.showSearch  ? 'flex': 'none'};
+    z-index: 1;
 `
 
 function TopNav() {
