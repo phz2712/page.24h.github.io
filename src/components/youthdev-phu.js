@@ -1,15 +1,18 @@
 import React from 'react';
-import Topnav from './detail-youthdev-component/top-nav';
-import Home from './detail-youthdev-component/home'
-import { StyledTopNav} from './styledComponent/styled-top-nav';
-import { StyledHome } from './styledComponent/styled-home';
-import { StyledAllYouthDev } from './styledComponent/Styled-all-youth-dev';
+import Topnav from './top-nav/top-nav';
+import Home from './home/home';
+import About from './about/about';
+
+import { StyledAllYouthDev } from './Styled-all-youth-dev';
+import { StyledTopNav} from './top-nav/styled-top-nav';
+import { StyledHome } from './home/styled-home';
+import { StyledAbout } from './about/styled-about';
 
 function Youthdev() {
     return (
         <StyledAllYouthDev>
             {/* header top-nav */}
-            <header>
+            <header style={{"zIndex": "3"}} className='w-100 position-fixed'>
                 <StyledTopNav>
                     <Topnav></Topnav>
                 </StyledTopNav>
@@ -19,6 +22,11 @@ function Youthdev() {
                 <StyledHome>
                     <Home></Home>
                 </StyledHome>
+            {/* about */}
+                <StyledAbout>
+                    <About></About>
+                </StyledAbout>
+                
             </main>
         </StyledAllYouthDev>
     );

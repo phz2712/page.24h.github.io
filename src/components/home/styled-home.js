@@ -105,7 +105,7 @@ export const StyledHome = styled.div`
         background-repeat: no-repeat;
         background-size: cover;
 
-        height: 100vh;
+        height: calc(100vh - 10px);
         width: 100vw;
         color: #ffffff;
         div.home_number{
@@ -127,16 +127,6 @@ export const StyledHome = styled.div`
         div.home_description{
             font-size: 15px;
             line-height: 30px;
-        }
-        div.home_button{
-            font-size: 14px;
-            text-transform: uppercase;
-            font-weight: bold;
-            div{
-                border-radius: 25px;
-            }
-            div.button_contact{}
-            div.button_portfolio{}
         }
     }
     .home_animation-button{

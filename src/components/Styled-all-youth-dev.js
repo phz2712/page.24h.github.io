@@ -23,6 +23,16 @@ export const StyledAllYouthDev = styled.div`
     .m-bg-color{
         background-color: #FC4349;
     }
+    .m_button{
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        div{
+            border-radius: 25px;
+        }
+        div.button_contact{}
+        div.button_portfolio{}
+    }
     @keyframes opacity {
         from{
             opacity: 0;

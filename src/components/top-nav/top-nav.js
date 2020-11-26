@@ -39,7 +39,7 @@ function TopNav() {
                                 <li><a href=" ">contact</a></li>
                             </ul>
                             <div href=" " onClick={searchChange} className="d-flex align-items-center mx-3 top-nav_search">
-                                <i class="pl-3 pr-1 py-1 fas fa-search"></i>
+                                <i className="pl-3 pr-1 py-1 fas fa-search"></i>
                                 <span className="">search</span>
                             </div>
                         </div>

@@ -32,7 +32,7 @@ function Home() {
                             As a result, one of the elusive things in software
                             development is how to measure business value.
                         </div>
-                        <div className="d-flex mt-3 home_button">
+                        <div className="d-flex mt-3 m_button">
                             <div className="px-3 py-2 m-bg-color button_contact">
                                 contact us
                             </div>
@@ -58,7 +58,7 @@ function Home() {
                             for short reality reachable future and always ready to change? 
                             We call it Change-Driven development process here.
                         </div>
-                        <div className="d-flex mt-3 home_button">
+                        <div className="d-flex mt-3 m_button">
                             <div className="px-3 py-2 m-bg-color button_contact">
                                 contact us
                             </div>
@@ -83,7 +83,7 @@ function Home() {
                             is that user stories of higher business value should be 
                             implemented before ones of lower business value.
                         </div>
-                        <div className="d-flex mt-3 home_button">
+                        <div className="d-flex mt-3 m_button">
                             <div className="px-3 py-2 m-bg-color button_contact">
                                 contact us
                             </div>
@@ -96,7 +96,7 @@ function Home() {
             </Slider>
             <div className='w-100 flex-wrap justify-content-center position-absolute home_animation-button'>
                 <div className='rounded-circle p-2 d-flex justify-content-center align-items-center animation-button_cover'>
-                    <i class="h1 font-weight-lighter text-white fas fa-angle-down"></i>
+                    <i className="h1 font-weight-lighter text-white fas fa-angle-down"></i>
                 </div>
                 <div className='text-white text-uppercase w-100 text-center'>Continue</div>
             </div>
