@@ -4,16 +4,18 @@ import BGRated from '../../picture/bigImage1.jpg';
 export const StyledAbout = styled.div`  
     padding: 0;
     margin: 0;
-    font-family: 'Lato', sans-serif;
     position: relative;
+
+    font-family: 'Lato', sans-serif;    
     overflow: hidden;
     ::after {
-        position: absolute;
-        content: "";
+        position: absolute;        
         bottom: -25px;
         width: 140%;
         left: -20%;
         height: 50px;
+
+        content: "";
         background-color: #333333;
         transform: rotate(-1.3deg);
     }
@@ -21,8 +23,7 @@ export const StyledAbout = styled.div`
     @media screen and (min-width: 768px) and (max-width: 992px) {}
     @media screen and (min-width: 992px){}
 
-    div.youthdev {
-        
+    div.youthdev {        
         div.youthdev_content {
             div.content_introduction {
                 font-size: 5.3em;

@@ -2,11 +2,13 @@ import React from 'react';
 import Topnav from './top-nav/top-nav';
 import Home from './home/home';
 import About from './about/about';
+import Services from './services/services'
 
 import { StyledAllYouthDev } from './Styled-all-youth-dev';
 import { StyledTopNav} from './top-nav/styled-top-nav';
 import { StyledHome } from './home/styled-home';
 import { StyledAbout } from './about/styled-about';
+import { StyledServices } from './services/styled-services'
 
 function Youthdev() {
     return (
@@ -26,7 +28,10 @@ function Youthdev() {
                 <StyledAbout>
                     <About></About>
                 </StyledAbout>
-                
+            {/* services */}
+                <StyledServices>
+                    <Services></Services>
+                </StyledServices>
             </main>
         </StyledAllYouthDev>
     );

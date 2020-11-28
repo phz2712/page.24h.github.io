@@ -27,7 +27,8 @@ function Home() {
                             </div>
                             <span className='d-block bg-white mb-4 mt-2'></span>
                         </div>
-                        <div className="home_description">Developing software is developing
+                        <div className="home_description">
+                            Developing software is developing
                             knowledge, the more you try, the more you learn.
                             As a result, one of the elusive things in software
                             development is how to measure business value.
