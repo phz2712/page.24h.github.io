@@ -5,12 +5,12 @@ function About() {
         <section className="about">
             <div className="pb-4 youthdev">
                 <div className="container">
-                    <div className="row d-flex flex-column flex-md-row-reverse flex-md-nowrap justify-content-between">
-                        <div className="col-auto"><span className="m-text-color font-italic youthdev_number">01</span></div>
+                    <div className="py-5 row d-flex flex-column flex-md-row-reverse flex-md-nowrap justify-content-between">
+                        <div className="d-flex justify-content-center py-2 col-auto"><span className="m-text-color font-italic youthdev_number">01</span></div>
                         <div className="col-auto d-flex align-items-center">
-                            <div className="youthdev_content">
-                                <div className="content_introduction">we are youthdev.</div>
-                                <div className="m-text-color content_development">We have a passion for development</div>
+                            <div className="py-4 youthdev_content">
+                                <div className="text-center text-md-left content_introduction">we are youthdev.</div>
+                                <div className="text-center text-md-left m-text-color content_development">We have a passion for development</div>
                             </div>
                         </div>   
                     </div>
@@ -63,8 +63,8 @@ function About() {
                     <div className='d-flex flex-column justify-content-between flex-md-row-reverse rated_group-title'>
                         <div className='font-weight-bolder text-uppercase group-title_process'>process</div>
                         <div className='group-title_title'>
-                            <div className="title_title">how we been rated</div>
-                            <div className="font-weight-bolder m-text-color text-uppercase title_detail">this is what customers rate us</div>
+                            <div className="font-weight-bold text-center text-md-left title_title">how we been rated</div>
+                            <div className="py-4 text-center text-md-left font-weight-bolder m-text-color text-uppercase title_detail">this is what customers rate us</div>
                         </div>                        
                     </div>
                     <div className="row">
@@ -137,7 +137,7 @@ function About() {
                     <div className="row">
                         <div className="col">
                             <div className='stuff_group-title'>
-                                <div className="font-weight-bolder stuff_title">we create stuff</div>
+                                <div className="text-center text-md-left font-weight-bolder stuff_title">we create stuff</div>
                                 <div className="text-uppercase stuff_detail_title">software engineer is not a coder</div>
                             </div>
                         </div>
@@ -159,7 +159,7 @@ function About() {
             <div className="py-5 fun-fact">
                 <div className="container">
                     <div className="row">
-                        <div className="col-3">
+                        <div className="col-12 col-md-3">
                             <h1 className="my-3 fun-fact_title">fun fact</h1>
                             <div className="my-3 py-3 fun-fact-detail">There are some numbers we have achieved during business.</div>
                             <div className="by-3 py-2 d-flex mt-3 m_button">
@@ -171,21 +171,21 @@ function About() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-12 col-md-3">
                             <div className="py-3 fun-fact_fact">
                                 <span className='d-block font-italic w-100 text-center m-text-color'>28</span>
                                 <div className="w-100 py-3 text-center text-uppercase fun-fact_label">happy customers</div>
                                 <i class="w-100 text-center fa fa-user" aria-hidden="true"></i>
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-12 col-md-3">
                             <div className="py-3 fun-fact_fact">
                                 <span className='d-block font-italic w-100 text-center m-text-color'>92</span>
                                 <div className="w-100 py-3 text-center text-uppercase fun-fact_label">projects we finalized</div>
                                 <i class="w-100 text-center fa fa-briefcase" aria-hidden="true"></i>
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-12 col-md-3">
                             <div className="py-3 fun-fact_fact">
                                 <span className='d-block font-italic w-100 text-center m-text-color'>6</span>
                                 <div className="w-100 py-3 text-center text-uppercase fun-fact_label">development awards</div>

@@ -46,9 +46,9 @@ function TopNav() {
                         <div className="d-flex px-4 justify-content-end align-items-center col">
                             <div className="top-nav_logo">
                                 <div className='h-100 d-md-none logo_navbar-icon'>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
                                 </div>
                                 <img src={LogoYouthDev} alt=""></img>                         
                             </div>

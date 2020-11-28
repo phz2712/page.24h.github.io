@@ -16,7 +16,7 @@ function Home() {
     return(
         <section className='position-relative home'>
             <Slider {...settings}>
-                <div className="home_home home_home-first">
+                <div className="d-flex align-items-center py-5 home_home home_home-first">
                     <div className="container">                
                         <div className="m-text-color home_number">01</div>
                         <div className='home_sub'>
@@ -42,7 +42,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="home_home home_home-second">
+                <div className="d-flex align-items-center py-5 home_home home_home-second">
                     <div className="container">                
                         <div className="m-text-color home_number">02</div>
                         <div className='home_sub'>
@@ -68,7 +68,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="home_home home_home-third">
+                <div className="d-flex align-items-center py-5 home_home home_home-third">
                     <div className="container">                
                         <div className="m-text-color home_number">03</div>
                         <div className='home_sub'>

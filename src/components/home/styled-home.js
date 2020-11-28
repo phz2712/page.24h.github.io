@@ -105,7 +105,7 @@ export const StyledHome = styled.div`
         background-repeat: no-repeat;
         background-size: cover;
 
-        height: calc(100vh - 10px);
+        min-height: calc(100vh - 10px);
         width: 100vw;
         color: #ffffff;
         div.home_number{

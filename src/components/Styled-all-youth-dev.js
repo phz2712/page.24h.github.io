@@ -6,7 +6,7 @@ export const StyledAllYouthDev = styled.div`
     margin: 0;
     font-family: 'Lato', sans-serif;
     @media screen and (max-width: 768px){
-        font-size: 5px;
+        font-size: 8px;
     }
     @media screen and (min-width: 768px) and  (max-width: 992px) {
         font-size: 10px;

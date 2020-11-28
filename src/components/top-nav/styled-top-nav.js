@@ -11,6 +11,9 @@ export const StyledTopNav = styled.div`
         .container{
             max-width: 100%;
         }
+        /* .top-nav .row{
+            display: flex;
+        } */
     }
     @media screen and (min-width: 768px) and  (max-width: 992px) {
         div.top-nav_logo img{
@@ -57,8 +60,7 @@ export const StyledTopNav = styled.div`
         .logo_navbar-icon{
             /* width: 30px;
             height: 30px; */
-            span{
-                display: block;
+            div{
                 width: 20px;
                 height: 2px;
                 margin: 4px 0;
