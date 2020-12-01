@@ -175,21 +175,21 @@ function About() {
                             <div className="py-3 fun-fact_fact">
                                 <span className='d-block font-italic w-100 text-center m-text-color'>28</span>
                                 <div className="w-100 py-3 text-center text-uppercase fun-fact_label">happy customers</div>
-                                <i class="w-100 text-center fa fa-user" aria-hidden="true"></i>
+                                <i className="w-100 text-center fa fa-user" aria-hidden="true"></i>
                             </div>
                         </div>
                         <div className="col-12 col-md-3">
                             <div className="py-3 fun-fact_fact">
                                 <span className='d-block font-italic w-100 text-center m-text-color'>92</span>
                                 <div className="w-100 py-3 text-center text-uppercase fun-fact_label">projects we finalized</div>
-                                <i class="w-100 text-center fa fa-briefcase" aria-hidden="true"></i>
+                                <i className="w-100 text-center fa fa-briefcase" aria-hidden="true"></i>
                             </div>
                         </div>
                         <div className="col-12 col-md-3">
                             <div className="py-3 fun-fact_fact">
                                 <span className='d-block font-italic w-100 text-center m-text-color'>6</span>
                                 <div className="w-100 py-3 text-center text-uppercase fun-fact_label">development awards</div>
-                                <i class="w-100 text-center fa fa-trophy" aria-hidden="true"></i>
+                                <i className="w-100 text-center fa fa-trophy" aria-hidden="true"></i>
                             </div>
                         </div>
                     </div>

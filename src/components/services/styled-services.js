@@ -28,6 +28,8 @@ export const StyledServices = styled.div`
             }            
         }      
         div.collapse-client {  
+            background-color: #fbfbfb;
+            border-bottom: 1px solid #ddd;
             overflow: hidden;
             position: relative;
             ::after {
@@ -46,8 +48,19 @@ export const StyledServices = styled.div`
                     font-size: 48px;
                 }
                 div.group-collapse_collapse {
-                    div.collapse-client_title-tab {}
+                    .collapse-client_title-tab {
+                        font-size: 30px;
+                        font-weight: bold;
+                        display: block;
+
+                        border: solid 1px #d3d3d3;
+                        margin: 0.2em;
+                        padding: 20px 20px 20px 60px;
+                        background-color: transparent;
+                    }
                     div.collapse-client_content {
+                        -webkit-transition: all .2s ease;
+                        transition: all .2s ease;
                         div.content_descripttion {}
                         img {}
                     }
