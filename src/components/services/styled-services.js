@@ -2,9 +2,21 @@ import styled from 'styled-components';
 
 export const StyledServices = styled.div`
 
-    @media screen and (max-width: 768px){}
-    @media screen and (min-width: 768px) and (max-width: 992px) {}
-    @media screen and (min-width: 992px){}
+    @media screen and (max-width: 768px){
+        .collapse-client_content {
+            margin-left: 7px;
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        .collapse-client_content {
+            margin-left: 60px;
+        }
+    }
+    @media screen and (min-width: 992px){
+        .collapse-client_content {
+            margin-left: 60px;
+        }
+    }
     section.services{
         div.promise {  
             background-color: #222222;                 
@@ -49,20 +61,30 @@ export const StyledServices = styled.div`
                 }
                 div.group-collapse_collapse {
                     .collapse-client_title-tab {
-                        font-size: 30px;
+                        font-size: 28px;
                         font-weight: bold;
                         display: block;
 
                         border: solid 1px #d3d3d3;
                         margin: 0.2em;
-                        padding: 20px 20px 20px 60px;
-                        background-color: transparent;
                     }
                     div.collapse-client_content {
-                        -webkit-transition: all .2s ease;
-                        transition: all .2s ease;
-                        div.content_descripttion {}
-                        img {}
+                        margin-right: 7px;
+                        margin-top: 5px;
+
+                        background-color: #f9f9f9;
+                        border: 1px solid #d3d3d3;
+
+                        -webkit-transition: all .17s ease;
+                        transition: all .17s ease;
+                        div.content_descripttion {
+                            color: #555555;
+                            font-size: 15px;
+                            line-height: 2em;
+                        }
+                        img {
+                            width: 100%;
+                        }
                     }
                 }
             }
@@ -74,10 +96,12 @@ export const StyledServices = styled.div`
                     font-size: 60px;
                     font-family: 'Open Sans',sans-serif;
                     color: #AAAAAA;
+                    line-height: 1;
                 }
                 div.customer-like_facebook {
                     font-size: 30px;
                     color: #3B5998;
+                    line-height: 1;
                 }
                 div.customer-like_like {
                     font-size: 14px;
@@ -87,27 +111,55 @@ export const StyledServices = styled.div`
         }   
         div.trust {
             div.trust_group-title {
-                div.group-title_title {}
-                div.group-title_ability {}
+                div.group-title_title {
+                    font-size: 48px;
+                }
+                div.group-title_ability {
+                    font-size: 14px;
+                }
             } 
             div.trust_credibility {
-                div.credibility-credibility {}
+                div.credibility-credibility {
+                    font-size: 80px;
+                    color: #eeeeee;
+                }
             }
             div.trust_cover-content {
-                div.cover-content_image {
-                    img {}
+                div.cover-content_image {                    
+                    div{
+                        border-radius: 50%;
+                        border: 2px solid #222222;
+                        padding: 8px;
+                        width: 42px;
+                        height: 42px;
+                        i {font-size: 20px;}
+                    }
                 }
                 div.cover-content_group-content {
-                    div.group-content_title {}
-                    div.group-content_description {}
-                    img {}
+                    div.group-content_title {
+                        font-size: 30px;
+                        font-weight: 600;
+                    }
+                    div.group-content_description {
+                        color: #555555;
+                    }
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                    }
                 }
             }
         }
         div.our-clients {
+            background-color: #222222;
+            color: #ffffff;
             div.our-client_group-content {
-                div.group-content_title {}
-                div.group-content_detail {}                
+                div.group-content_title {
+                    font-size: 48px;
+                }
+                div.group-content_detail {
+                    font-size: 15px;
+                }                
             }
             div.our-client_carousel{}        
         }
