@@ -215,7 +215,7 @@ function Services() {
             </div>
             <div className="trust">
                 <div className="container">
-                    <div className="row d-flex flex-column flex-row-md-reverse">
+                    <div className="row d-flex flex-column flex-md-row-reverse">
                         <div className="col">
                             <div className="trust_credibility">
                                 <div className="text-center text-md-left font-weight-bold text-uppercase credibility-credibility">credibility</div>
