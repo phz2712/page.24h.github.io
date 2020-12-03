@@ -6,15 +6,43 @@ export const StyledServices = styled.div`
         .collapse-client_content {
             margin-left: 7px;
         }
+        .collapse-client_title-tab {
+            padding: 20px 20px 20px 20px;
+            :before{
+                left: calc(50% - 14px);
+                top: -15px;
+            }
+        }
+        div.credibility-credibility {
+            font-size: 50px
+        }
     }
     @media screen and (min-width: 768px) and (max-width: 992px) {
         .collapse-client_content {
             margin-left: 60px;
         }
+        .collapse-client_title-tab {
+            padding: 20px 20px 20px 60px;
+            :before{
+                left: 20px;
+            }
+        }
+        div.credibility-credibility {
+            font-size: 80px
+        }
     }
     @media screen and (min-width: 992px){
         .collapse-client_content {
             margin-left: 60px;
+        }
+        .collapse-client_title-tab {
+            padding: 20px 20px 20px 60px;
+            :before{
+                left: 20px;
+            }
+        }
+        div.credibility-credibility {
+            font-size: 80px;
         }
     }
     section.services{
@@ -112,7 +140,7 @@ export const StyledServices = styled.div`
         div.trust {
             div.trust_group-title {
                 div.group-title_title {
-                    font-size: 48px;
+                    font-size: 47px;
                 }
                 div.group-title_ability {
                     font-size: 14px;
@@ -120,7 +148,6 @@ export const StyledServices = styled.div`
             } 
             div.trust_credibility {
                 div.credibility-credibility {
-                    font-size: 80px;
                     color: #eeeeee;
                 }
             }
@@ -161,7 +188,26 @@ export const StyledServices = styled.div`
                     font-size: 15px;
                 }                
             }
-            div.our-client_carousel{}        
+            div.our-client_carousel{
+                ul {
+                    li {
+                        div{
+                            border: 2px solid #fff;
+                            border-radius: 50%;
+                            height: 164px;
+                            width: 164px;
+                        }
+                    }
+                }
+                div.carousel_arrow {
+                    a {
+                        i {
+                            font-size: 40px;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }        
         }
     }
 `

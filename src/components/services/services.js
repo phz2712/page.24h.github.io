@@ -12,19 +12,6 @@ const TabCollapse = styled.div`
         content: '${props => $(props).attr("aria-expanded") ? "\f056" : "\f055"}';
         position: absolute;
     };
-    @media screen and (min-width: 768px){
-        padding: 20px 20px 20px 60px;
-        :before{
-            left: 20px;
-        }
-    }
-    @media screen and (max-width: 768px){
-        padding: 20px 20px 20px 20px;
-        :before{
-            left: calc(50% - 14px);
-            top: -15px;
-        }
-    }
 `
 function Services() {
     const [collapse, setCollapse] =useState({
@@ -228,20 +215,20 @@ function Services() {
             </div>
             <div className="trust">
                 <div className="container">
-                    <div className="row">
+                    <div className="row d-flex flex-column flex-row-md-reverse">
                         <div className="col">
-                            <div className="trust_group-title">
-                                <div className="font-weight-bold group-title_title">you can trust us.</div>
-                                <div className="text-uppercase font-weight-bold m-text-color group-title_ability">some of our abilities</div>
+                            <div className="trust_credibility">
+                                <div className="text-center text-md-left font-weight-bold text-uppercase credibility-credibility">credibility</div>
                             </div>
                         </div>
                         <div className="col">
-                            <div className="trust_credibility">
-                                <div className="font-weight-bold text-uppercase credibility-credibility">credibility</div>
+                            <div className="trust_group-title">
+                                <div className="text-center text-md-left font-weight-bold group-title_title">you can trust us.</div>
+                                <div className="text-center text-md-left text-uppercase font-weight-bold m-text-color group-title_ability">some of our abilities</div>
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="py-4 row">
                         <div className="col-md-4 col-12">
                             <div className="d-flex flex-column flex-md-row trust_cover-content">
                                 <div className="mr-3 mb-4 cover-content_image"><div><i className="far fa-thumbs-up"></i></div></div>
@@ -290,10 +277,10 @@ function Services() {
                     </div>
                 </div>
             </div>
-            <div className="our-clients">
+            <div className="py-5 our-clients">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-md-3">
+                        <div className="py-2 col-12 col-md-4">
                             <div className="our-client_group-content">
                                 <div className="font-weight-bold group-content_title">some of our clients.</div>
                                 <div className="group-content_detail">they are still going on with us.</div>
@@ -307,35 +294,76 @@ function Services() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-md-9">
+                        <div className="pt-5 col-12 col-md-8">
                             <div className="our-client_carousel">
-                                <div className='group_newsDoanhNghiep uk-position-relative uk-visible-toggle' uk-slider="autoplay: true; autoplay-interval: 3000">
-
-                                    <ul className="uk-slider-items uk-child-width-1-4 uk-child-width-1-4@s uk-child-width-4@m">
-                                        <li>
-                                            <img src="https://getuikit.com/docs/images/slider1.jpg" alt=""/>
-                                            <div class="uk-position-center uk-panel"><h1>1</h1></div>
+                                <div className='uk-position-relative uk-visible-toggle' uk-slider="finite: true">
+                                    <ul className="uk-slider-items uk-child-width-1-2 uk-child-width-1-2@s uk-child-width-1-4@m">
+                                        <li className='d-flex justify-content-center align-items-center'>
+                                            <div className='d-flex justify-content-center align-items-center'>
+                                                <img src={require('../../picture/services_logo-satra.png')} alt=""/>
+                                            </div>
                                         </li>
-                                        <li>
-                                            <img src="https://getuikit.com/docs/images/slider2.jpg" alt=""/>
-                                            <div class="uk-position-center uk-panel"><h1>2</h1></div>
+                                        <li className='d-flex justify-content-center align-items-center'>
+                                            <div className='d-flex justify-content-center align-items-center'>
+                                                <img src={require('../../picture/services_logo-mobifone.png')} alt=""/>
+                                            </div>
                                         </li>
-                                        <li>
-                                            <img src="https://getuikit.com/docs/images/slider3.jpg" alt=""/>
-                                            <div class="uk-position-center uk-panel"><h1>3</h1></div>
+                                        <li className='d-flex justify-content-center align-items-center'>
+                                            <div className='d-flex justify-content-center align-items-center'>
+                                                <img src={require('../../picture/services_logo-abbott.png')} alt=""/>
+                                            </div>
                                         </li>
-                                        <li>
-                                            <img src="https://getuikit.com/docs/images/slider4.jpg" alt=""/>
-                                            <div class="uk-position-center uk-panel"><h1>4</h1></div>
+                                        <li className='d-flex justify-content-center align-items-center'>
+                                            <div className='d-flex justify-content-center align-items-center'>
+                                                <img src={require('../../picture/services_logo-SCTV.png')} alt=""/>
+                                            </div>
                                         </li>
-                                        <li>
-                                            <img src="https://getuikit.com/docs/images/slider5.jpg" alt=""/>
-                                            <div class="uk-position-center uk-panel"><h1>5</h1></div>
-                                        </li>                                   
+                                        <li className='d-flex justify-content-center align-items-center'>
+                                            <div className='d-flex justify-content-center align-items-center'>
+                                                <img src={require('../../picture/services_logo-pepsi.png')} alt=""/>
+                                            </div>
+                                        </li>
+                                        <li className='d-flex justify-content-center align-items-center'>
+                                            <div className='d-flex justify-content-center align-items-center'>
+                                                <img src={require('../../picture/services_logo-samsung.png')} alt=""/>
+                                            </div>
+                                        </li> 
+                                        <li className='d-flex justify-content-center align-items-center'>
+                                            <div className='d-flex justify-content-center align-items-center'>
+                                                <img src={require('../../picture/services_logo-VietJet-Air.png')} alt=""/>
+                                            </div>
+                                        </li> 
+                                        <li className='d-flex justify-content-center align-items-center'>
+                                            <div className='d-flex justify-content-center align-items-center'>
+                                                <img src={require('../../picture/services_logo-icenter.png')} alt=""/>
+                                            </div>
+                                        </li> 
+                                        <li className='d-flex justify-content-center align-items-center'>
+                                            <div className='d-flex justify-content-center align-items-center'>
+                                                <img src={require('../../picture/services_logo-giant.png')} alt=""/>
+                                            </div>
+                                        </li> 
+                                        <li className='d-flex justify-content-center align-items-center'>
+                                            <div className='d-flex justify-content-center align-items-center'>
+                                                <img src={require('../../picture/services_BuzzInsight-Logo.png')} alt=""/>
+                                            </div>
+                                        </li> 
+                                        <li className='d-flex justify-content-center align-items-center'>
+                                            <div className='d-flex justify-content-center align-items-center'>
+                                                <img src={require('../../picture/services_logo-alphaleaper.png')} alt=""/>
+                                            </div>
+                                        </li> 
+                                        <li className='d-flex justify-content-center align-items-center'>
+                                            <div className='d-flex justify-content-center align-items-center'>
+                                                <img src={require('../../picture/services_logo-uit.png')} alt=""/>
+                                            </div>
+                                        </li>                                
                                     </ul>
 
-                                {/* <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a> */}
+                                    <div className="py-2 d-flex justify-content-center carousel_arrow">
+                                        <a className='mx-3' href=" #" uk-slidenav-previous uk-slider-item="previous"><i className="fas fa-long-arrow-alt-left"></i></a>
+                                        <a className='mx-3' href=" #" uk-slidenav-next uk-slider-item="next"><i className="fas fa-long-arrow-alt-right"></i></a>
+                                    </div>
 
                                 </div>
 
