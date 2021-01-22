@@ -38,7 +38,7 @@ export const StyledTopNav = styled.div`
                 text-transform: uppercase;
                 color: #ffffff;
                 :hover{
-                    color: #FC4349;
+                    color: #fc4349;
                     text-decoration: none;
                 }
             }
@@ -50,7 +50,7 @@ export const StyledTopNav = styled.div`
         font-size: 1em;
         font-weight: bold;
         :hover{
-            color: #FC4349;
+            color: #fc4349;
         }
         i{border-left: 1px solid #ffffff;}
         span{}
@@ -72,7 +72,7 @@ export const StyledTopNav = styled.div`
         width: 98%;
         font-size: 2.5em;
         font-weight: 300;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
         input{
             border-radius: 0px;
             border: none;

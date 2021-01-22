@@ -128,11 +128,11 @@ function Services() {
                                     <TabCollapse className="collapse-client_title-tab" 
                                         onClick         ={e=>testHandle(e)} 
                                         name            ='collapse4' 
-                                        data-toggle="collapse" 
-                                        href="#q4" 
-                                        role="button" 
-                                        aria-expanded={collapse.collapse4} 
-                                        aria-controls="collapseExample">
+                                        data-toggle     ="collapse" 
+                                        href            ="#q4" 
+                                        role            ="button" 
+                                        aria-expanded   ={collapse.collapse4} 
+                                        aria-controls   ="collapseExample">
                                         weekly/monthly report
                                     </TabCollapse>
                                     <div className="px-3 py-3 collapse collapse-client_content" id="q4">
@@ -153,11 +153,11 @@ function Services() {
                                     <TabCollapse className="collapse-client_title-tab" 
                                         onClick         ={e=>testHandle(e)} 
                                         name            ='collapse5'
-                                        data-toggle="collapse" 
-                                        href="#q5" 
-                                        role="button" 
-                                        aria-expanded={collapse.collapse5} 
-                                        aria-controls="collapseExample">
+                                        data-toggle     ="collapse" 
+                                        href            ="#q5" 
+                                        role            ="button" 
+                                        aria-expanded   ={collapse.collapse5} 
+                                        aria-controls   ="collapseExample">
                                         objective code qualifying
                                     </TabCollapse>
                                     <div className="px-3 py-3 collapse collapse-client_content" id="q5">
