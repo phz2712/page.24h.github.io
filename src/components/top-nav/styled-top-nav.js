@@ -72,7 +72,7 @@ export const StyledTopNav = styled.div`
         width: 98%;
         font-size: 2.5em;
         font-weight: 300;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
         input{
             border-radius: 0px;
             border: none;
@@ -80,11 +80,11 @@ export const StyledTopNav = styled.div`
                 outline: none;
             }
             ::placeholder {
-                color: black;
+                color: #000000;
                 opacity: 1; /* Firefox */
             }
             :-ms-input-placeholder { /* Internet Explorer 10-11 */
-                color: black;
+                color: #000000;
             }
             ::-ms-input-placeholder { /* Microsoft Edge */
                 color: black;
