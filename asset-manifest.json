@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/page.youthdev.github.io/static/css/main.a47665bf.chunk.css",
+    "main.js": "/page.youthdev.github.io/static/js/main.065831e9.chunk.js",
+    "main.js.map": "/page.youthdev.github.io/static/js/main.065831e9.chunk.js.map",
+    "runtime-main.js": "/page.youthdev.github.io/static/js/runtime-main.46d9e633.js",
+    "runtime-main.js.map": "/page.youthdev.github.io/static/js/runtime-main.46d9e633.js.map",
+    "static/css/2.58fd382b.chunk.css": "/page.youthdev.github.io/static/css/2.58fd382b.chunk.css",
+    "static/js/2.25dd5258.chunk.js": "/page.youthdev.github.io/static/js/2.25dd5258.chunk.js",
+    "static/js/2.25dd5258.chunk.js.map": "/page.youthdev.github.io/static/js/2.25dd5258.chunk.js.map",
+    "index.html": "/page.youthdev.github.io/index.html",
+    "precache-manifest.4e8c417fd891f349ffeb12cf9cc42827.js": "/page.youthdev.github.io/precache-manifest.4e8c417fd891f349ffeb12cf9cc42827.js",
+    "service-worker.js": "/page.youthdev.github.io/service-worker.js",
+    "static/css/2.58fd382b.chunk.css.map": "/page.youthdev.github.io/static/css/2.58fd382b.chunk.css.map",
+    "static/css/main.a47665bf.chunk.css.map": "/page.youthdev.github.io/static/css/main.a47665bf.chunk.css.map",
+    "static/js/2.25dd5258.chunk.js.LICENSE.txt": "/page.youthdev.github.io/static/js/2.25dd5258.chunk.js.LICENSE.txt",
+    "static/media/agile1.jpg": "/page.youthdev.github.io/static/media/agile1.2f70c62e.jpg",
+    "static/media/bigImage1.jpg": "/page.youthdev.github.io/static/media/bigImage1.1fefcff7.jpg",
+    "static/media/bigImage4.jpg": "/page.youthdev.github.io/static/media/bigImage4.85b1957a.jpg",
+    "static/media/hand_stop_domino2.jpg": "/page.youthdev.github.io/static/media/hand_stop_domino2.6cedd7a1.jpg",
+    "static/media/services_ai.jpg": "/page.youthdev.github.io/static/media/services_ai.04f724d5.jpg",
+    "static/media/services_automation-test.jpg": "/page.youthdev.github.io/static/media/services_automation-test.5e2eaed0.jpg",
+    "static/media/services_ci.png": "/page.youthdev.github.io/static/media/services_ci.0c7f0918.png",
+    "static/media/services_code-qualifying-1.jpg": "/page.youthdev.github.io/static/media/services_code-qualifying-1.e487e33f.jpg",
+    "static/media/services_code-qualifying-2.jpg": "/page.youthdev.github.io/static/media/services_code-qualifying-2.c28a0e04.jpg",
+    "static/media/services_control-flow.png": "/page.youthdev.github.io/static/media/services_control-flow.29601d2a.png",
+    "static/media/services_high-availability.png": "/page.youthdev.github.io/static/media/services_high-availability.3f45c886.png",
+    "static/media/services_monthly-report-1.png": "/page.youthdev.github.io/static/media/services_monthly-report-1.f326aab4.png",
+    "static/media/services_monthly-report-2.jpg": "/page.youthdev.github.io/static/media/services_monthly-report-2.94c17333.jpg",
+    "static/media/services_right-role-1.jpg": "/page.youthdev.github.io/static/media/services_right-role-1.1eb835a4.jpg",
+    "static/media/services_right-role-2.jpg": "/page.youthdev.github.io/static/media/services_right-role-2.3a92f1a3.jpg",
+    "static/media/services_transparent-process.png": "/page.youthdev.github.io/static/media/services_transparent-process.c7eaa730.png",
+    "static/media/slick-theme.css": "/page.youthdev.github.io/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46d9e633.js",
+    "static/css/2.58fd382b.chunk.css",
+    "static/js/2.25dd5258.chunk.js",
+    "static/css/main.a47665bf.chunk.css",
+    "static/js/main.065831e9.chunk.js"
+  ]
+}
